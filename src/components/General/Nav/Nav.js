@@ -1,4 +1,5 @@
 import NavItem from '../NavItem/NavItem';
+import './style.css';
 import NavCart from '../NavCart/NavCart';
 import {Link} from 'react-router-dom';
 

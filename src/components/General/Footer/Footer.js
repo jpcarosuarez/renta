@@ -1,11 +1,13 @@
-import React from 'react'
+import './style.css';
 
-function Footer() {
+const Footer = () => {
     return (
-        <div>
-            <h1>rento</h1>
-        </div>
+        <footer>
+            <div className="container">
+                <p>Made with 💜 by <strong>Juan Pablo Caro</strong></p>
+            </div>
+        </footer>
     )
 }
 
-export default Footer
+export default Footer;

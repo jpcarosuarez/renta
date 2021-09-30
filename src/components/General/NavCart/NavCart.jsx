@@ -1,4 +1,5 @@
 import {AiOutlineShoppingCart} from 'react-icons/ai';
+import './style.css';
 
 const NavCart = ({data, action}) => {
     const cantidad = 0; 
