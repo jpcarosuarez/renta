@@ -5,7 +5,7 @@ const WidgetCart = ({show, action}) => {
     return (
         <div className={`widgetCart ${show ? 'open' : 'close'}`}>
 
-            <button onClick={action}>Cerrar widget</button>
+            <button onClick={action}>Cerrar</button>
         </div>
     )
 }

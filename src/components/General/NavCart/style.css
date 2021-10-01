@@ -6,7 +6,7 @@
 }
 
 .navCart svg {
-  color: var(--blanco);
+  color: grey;
   font-size: 2.8rem;
 }
 
@@ -21,7 +21,7 @@
   position: absolute;
   right: -0.8rem;
   top: -0.8rem;
-  background: var(--blanco);
+  background: white;
   line-height: 0;
-  color: var(--color-principal);
+  color: lightseagreen;
 }

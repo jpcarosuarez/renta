@@ -15,7 +15,8 @@ function App() {
 
       <NavAndWidgetCart />
       <ItemListContainer
-            greetings="La lista se encuentra vacia"
+            greetings="Rento Kiosko"
+            
           />
       <Switch>
       <Route exact path="/">

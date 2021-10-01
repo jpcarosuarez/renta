@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const GrillaArriendosHome = () => {
 
+
+    
+
     
     return (
         <div>
