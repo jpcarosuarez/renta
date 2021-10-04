@@ -1,0 +1,9 @@
+.Card.Title {
+    background-color: purple;
+    color: white;
+}
+
+.Card.Text {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+}

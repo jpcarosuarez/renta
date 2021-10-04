@@ -6,23 +6,9 @@ const GrillaArriendosHome = () => {
 
 
     
-
-    
     return (
         <div>
-            <style type="text/css">
-            {`
-            .Card.Title {
-            background-color: purple;
-            color: white;
-            }
 
-            .Card.Text {
-            padding: 1rem 1.5rem;
-            font-size: 1.5rem;
-            }
-            `}
-            </style>
             <Card className="bg-dark text-white" >
             <Card.Img src="https://es.investinbogota.org/sites/default/files/node/news/field_news_imagen/Emprendimientos%20en%20Bogota%CC%81.jpg" alt="Card image" />
                 <Card.ImgOverlay>

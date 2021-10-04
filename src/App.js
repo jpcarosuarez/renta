@@ -5,8 +5,6 @@ import NavAndWidgetCart from './components/General/NavAndWidgetCart/NavAndWidget
 import Footer from './components/General/Footer/Footer';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
-// import logo from './logo.svg';
-// import './App.css';
 
 function App() {
 
@@ -14,14 +12,13 @@ function App() {
     <BrowserRouter>
 
       <NavAndWidgetCart />
-      <ItemListContainer
-            greetings="Rento Kiosko"
-            
-          />
+      <ItemListContainer greetings="Rento Kiosko"/>
+
       <Switch>
-      <Route exact path="/">
-        <Main />
-      </Route>
+        <Route exact path="/">
+          <Main />
+        </Route>
+
 
       </Switch>
       <Footer />

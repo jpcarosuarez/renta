@@ -3,6 +3,7 @@ import './style.css';
 import NavCart from '../NavCart/NavCart';
 import {Link} from 'react-router-dom';
 
+
 function Nav({titulo, action}) {
     const menuItems = [
         {
@@ -33,6 +34,9 @@ function Nav({titulo, action}) {
                      menuItems.map((seccion, index) => <NavItem key={index} text={seccion.texto} url={seccion.ruta} />)   
                     }
                 </ul>
+
+
+
                 
                 <NavCart action={action} />
             </div>
