@@ -1,6 +1,7 @@
 import { Card, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
+import ItemCount from '../General/ItemCount/ItemCount';
 
 function ItemListContainer({greetings}) {
 
@@ -15,7 +16,9 @@ function ItemListContainer({greetings}) {
                         <Card>
                             <Card.Img variant="top" src="holder.js/100px160" />
                             <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title>
+                                    <ItemCount/>
+                                </Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
